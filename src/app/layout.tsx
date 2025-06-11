@@ -26,7 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
-        <Script defer src="https://cdn.commento.io/js/commento.js" />
+        {/* <Script defer async src="https://cdn.commento.io/js/commento.js" /> */}
+        <Script defer async src="https://talk.hyvor.com/embed/embed.js" />
       </body>
     </html>
   );
